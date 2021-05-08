@@ -23,6 +23,7 @@ At the high level, to deploy the CDK app, we need to conduct the following steps
 4. Then deploy the CDK stack of QldbBlogDbStack.
 5. Lastly deploy the CDK stack of QldbBlogStreamStack. 
 
+Please note, you need to conduct cdk bootstrap as per https://docs.aws.amazon.com/cdk/latest/guide/bootstrapping.html first if not done yet. 
 
 The detailed commands of the steps are listed below: 
 
