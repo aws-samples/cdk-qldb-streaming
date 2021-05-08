@@ -51,5 +51,8 @@ cdk.out
 # Ignore cdk.context.json
 cdk.context.json
 
+# Ignore .js.LICENSE.txt
+*.js.LICENSE.txt
+
 # Ignore dist
 dist
