@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "target": "es2018",
+        "module": "commonjs",
+        "outDir": "dist/",
+        "lib": ["es6", "es2018"],
+        "strict": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "forceConsistentCasingInFileNames": true,
+        "declaration": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": false,
+        "inlineSourceMap": true,
+        "inlineSources": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "strictPropertyInitialization": false,
+        "typeRoots": ["./node_modules/@types"]
+    },
+    "include": ["index.ts", "**/*.ts"],
+    "exclude": ["node_modules", "dist", "**/*.spec.ts"]
+}
