@@ -36,6 +36,7 @@ Temporary Items
 # The following section merged from CDK .gitignore. 
 *.js
 !jest.config.js
+!webpack.config.js
 *.d.ts
 node_modules
 
