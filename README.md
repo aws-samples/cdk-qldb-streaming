@@ -5,6 +5,9 @@ This is a project of TypeScript development with CDK for setting up QLDB steamin
 ### Architecture Layout
 At the high level, this CDK App has two stacks - QldbBlogDbStack & QldbBlogStreamStack. 
 
+#### Architecture
+![QLDB Streaming](/QLDB-Streaming.png?raw=true "QLDB Streaming")
+
 QldbBlogDbStack creates two QLDB ledgers, source and destination ledgers, i.e. QldbBlog & QldbBlogStreaming.
 
 QldbBlogStreamStack creates the following components:
