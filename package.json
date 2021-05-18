@@ -31,6 +31,7 @@
     "@aws-cdk/aws-s3": "^1.102.0",
     "@aws-cdk/core": "^1.102.0",
     "@aws-cdk/custom-resources": "^1.102.0",
+    "node-notifier": "^8.0.1",
     "source-map-support": "^0.5.16"
   }
 }
