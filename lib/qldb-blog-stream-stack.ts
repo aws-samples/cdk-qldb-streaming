@@ -19,8 +19,9 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 Description:
 
-This CDK Stack creates an QLDB ledger. Please note currently CDK only supports raw CFN resource class to
-create QLDB ledger and QLDB streaming. There is no high-level abstract CDK construct class yet.
+This CDK Stack leverages existing an QLDB ledger and sets up kinesis stream from ledger to S3. Also Lambda function is configured to listen to kinesis data streams to stream the data to another ledger
+Please note currently CDK only supports raw CFN resource class to create QLDB ledger and QLDB streaming. 
+There is no high-level abstract CDK construct class yet.
 
 The stack is also creating tables and populate initial data in QLDB via a CDK customer resource.
 
